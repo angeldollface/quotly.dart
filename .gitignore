@@ -13,7 +13,6 @@ local.properties
 .svn/
 ios
 test
-web
 *.iml
 *.ipr
 *.iws
