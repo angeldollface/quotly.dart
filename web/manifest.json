@@ -1,0 +1,11 @@
+{
+    "name": "quotly",
+    "short_name": "quotly",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "description": "Inspiring quotes for you.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}
