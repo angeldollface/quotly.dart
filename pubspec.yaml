@@ -12,6 +12,9 @@ dependencies:
 flutter:
   uses-material-design: true
   fonts:
-   - family: PSB
-     fonts:
-       - asset: assets/fonts/PSB.ttf
+    - family: PSB
+      fonts:
+        - asset: assets/fonts/PSB.ttf
+    - family: GaramondItalic
+      fonts:
+        - asset: assets/fonts/GaramondItalic.ttf

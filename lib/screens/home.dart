@@ -88,7 +88,7 @@ class HomeState extends State<Home> {
                 if (snapshot.connectionState == ConnectionState.waiting){
                     return FeedBackStatus(
                         text: loadingMsg,
-                        fontFamily: stdFont,
+                        fontFamily: feedbackFont,
                         fontSize: stdFontSize,
                         fontColor: accentColor,
                         backgroundColor: mainColor,
@@ -108,7 +108,7 @@ class HomeState extends State<Home> {
                     if (snapshot.hasError){
                         return FeedBackStatus(
                             text: errorMsg,
-                            fontFamily: stdFont,
+                            fontFamily: feedbackFont,
                             fontSize: stdFontSize,
                             fontColor: accentColor,
                             backgroundColor: mainColor,
@@ -131,16 +131,20 @@ class HomeState extends State<Home> {
                             itemBuilder: (context, index){
                                 Map<String, dynamic> data = snapshot.data!;
                                 String key = data.keys.elementAt(index)!;
-                                String colorOne = data[key][1]!;
-                                String colorTwo = data[key][2]!;
+                                String imageURL = data[key][1]!;
                                 String quote = data[key][0]!;
                                 return new Quote(
-                                    firstColor: fromString(colorOne),
-                                    secondColor: fromString(colorTwo),
+                                    buttonPadding: stdPadding,
                                     quote: quote,
                                     fontSize: stdFontSize,
                                     fontFamily: stdFont,
-                                    fontColor: mainColor
+                                    fontColor: mainColor,
+                                    imageURL: imageURL,
+                                    buttonColor: accentColor,
+                                    feedbackMsg: feedbackMsg,
+                                    color: accentColor,
+                                    elevation: stdElevation,
+                                    feedbackPadding: stdPadding
                                 );
                             },
                             scrollDirection: Axis.vertical

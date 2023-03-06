@@ -3,7 +3,10 @@ QUOTLY.DART by Alexander Abraham, a.k.a. "Angel Dollface".
 Licensed under the MIT license.
 */
 
+/// Importing the vertical spacer widget.
 import 'vspacer.dart';
+
+/// Importing Flutter's API.
 import 'package:flutter/material.dart';
 
 /// A class for a re-usable vertical

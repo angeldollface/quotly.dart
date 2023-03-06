@@ -3,7 +3,10 @@ QUOTLY.DART by Alexander Abraham, a.k.a. "Angel Dollface".
 Licensed under the MIT license.
 */
 
+/// Importing the vertical spacer.
 import 'vspacer.dart';
+
+/// Importing Flutter's API.
 import 'package:flutter/material.dart';
 
 /// A class for a re-usable user
@@ -32,7 +35,7 @@ class FeedBackStatus extends StatelessWidget{
             required this.backgroundColor,
             required this.iconChild,
             required this.padding,
-            required this.size
+            required this.size,
         }
     );
 
