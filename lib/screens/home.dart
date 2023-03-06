@@ -144,7 +144,8 @@ class HomeState extends State<Home> {
                                     feedbackMsg: feedbackMsg,
                                     color: accentColor,
                                     elevation: stdElevation,
-                                    feedbackPadding: stdPadding
+                                    feedbackPadding: stdPadding,
+                                    maxWidth: MediaQuery.of(context).size.width * maxWidth
                                 );
                             },
                             scrollDirection: Axis.vertical

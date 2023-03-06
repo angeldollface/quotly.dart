@@ -23,6 +23,7 @@ const double stdPadding = 10.0;
 const double spacingFactor = 5;
 const double stdFontSize = 25.0;
 const double stdElevation = 3.0;
+const double maxWidth = 0.6;
 
 /// String variables.
 const String errorMsg = 'Error!';

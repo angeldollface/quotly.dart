@@ -26,6 +26,7 @@ class Quote extends StatelessWidget {
     final double feedbackPadding;
     final Color color;
     final double elevation;
+    final double maxWidth;
 
     /// Class constructor with
     /// parameters.
@@ -41,6 +42,7 @@ class Quote extends StatelessWidget {
             required this.feedbackMsg,
             required this.color,
             required this.elevation,
+            required this.maxWidth,
             required this.feedbackPadding
         }
     );
@@ -61,12 +63,16 @@ class Quote extends StatelessWidget {
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height,
                 child: new Center(
-                    child: new Text(
-                        this.quote,
-                        style: new TextStyle(
-                            fontSize: this.fontSize,
-                            fontFamily: this.fontFamily,
-                            color: this.fontColor
+                    child: new Container(
+                        width: this.maxWidth,
+                        child:new Text(
+                            this.quote,
+                            textAlign: TextAlign.center,
+                            style: new TextStyle(
+                                fontSize: this.fontSize,
+                                fontFamily: this.fontFamily,
+                                color: this.fontColor
+                            )
                         )
                     )
                 )
