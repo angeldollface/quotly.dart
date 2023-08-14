@@ -47,13 +47,13 @@ cd quotly.dart
 flutter build web --release
 ```
 
-- 3b.) Build for Mac OSX:
+- 3b.) Build for a Mac OSX target:
 
 ```bash
 flutter build macos --release
 ```
 
-- 3c.) Build for Android by generating a Java Keystore and moving this to `android/app`. After this, add the alias and passwords to `android/app/key.properties`. Once these things are done, run the following command:
+- 3c.) Prepare a build for Android by generating a Java Keystore and moving this to `android/app`. After this has been completed, fill out the missing information in the keystore information file, `android/app/key.properties`. Once these things are done, run the following command to build for an Android target:
 
 ```bash
 flutter build apk --release
