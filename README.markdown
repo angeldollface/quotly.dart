@@ -18,14 +18,13 @@ There are compiled binary executables for Android and Mac OSX in this repository
 
 ### Build from source
 
-Make sure you have the following tools installed and available from the command line:
+Make sure you have the following tools installed and, where required, available from the command line:
 
 - [Flutter](https://flutter.dev)
 - [Git](https://git-scm.org)
 - For testing and rendering on the web: [Chrome](https://www.google.com/chrome/)
-- For Android: [Android Studio](https://developer.android.com/studio) and [Java JDK](https://www.oracle.com/java/technologies/downloads/)
+- For Android: [Android Studio](https://developer.android.com/studio) and the [Java JDK](https://www.oracle.com/java/technologies/downloads/)
 - For Mac OSX: [XCode](https://developer.apple.com/xcode/)
-
 
 To get the source code, execute the following steps on the command line:
 
