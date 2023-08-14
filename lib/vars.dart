@@ -18,7 +18,7 @@ const Color mainColor = Color(0xFFFFFFFF);
 const Color accentColor = Color(0xFF000000);
 
 /// Numeric layout variables.
-const double sizeFactor = 8;
+const double sizeFactor = 6;
 const double stdPadding = 10.0;
 const double spacingFactor = 5;
 const double stdFontSize = 25.0;

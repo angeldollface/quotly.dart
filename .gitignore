@@ -13,6 +13,8 @@ local.properties
 .svn/
 ios
 test
+web
+# IntelliJ related
 *.iml
 *.ipr
 *.iws
@@ -54,5 +56,5 @@ GeneratedPluginRegistrant.java
 Flutter/ephemeral/
 Pods/
 xcuserdata/
-!Flutter-Debug.xcconfig
 !Flutter-Release.xcconfig
+!Flutter-Debug.xcconfig

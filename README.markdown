@@ -14,15 +14,18 @@ You can view the live, deployed project on GitHub Pages [here](https://angeldoll
 
 ## INSTALLATION :inbox_tray:
 
-### Requirements
+There are compiled binary executables for Android and Mac OSX in this repository's [Releases Section](https://github.com/angeldollface/quotly.dart/releases).
+
+### Build from source
 
 Make sure you have the following tools installed and available from the command line:
 
 - [Flutter](https://flutter.dev)
 - [Git](https://git-scm.org)
 - For testing and rendering: [Chrome](https://www.google.com/chrome/)
+- For Android: [Android Studio](https://developer.android.com/studio) and [Java JDK](https://www.oracle.com/java/technologies/downloads/)
+- For iOS and Mac OSX: [XCode](https://developer.apple.com/xcode/)
 
-### Getting the source code
 
 To get the source code, execute the following steps on the command line:
 
