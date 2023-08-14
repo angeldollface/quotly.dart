@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-I've been feeling down lately and as I was scrolling through some stupid social media app, I found a page that had some quotes. I found the quotes inspiring and they lifted my mood. I thought I'd write an app to do that because why the hell not? This is that app!
+Since it is a good idea to slow down every now and again and contemplate many things, I thought I'd write an app that displays inspirational quotes. This repository contains the source for just such an app implemented in the Flutter framework! Enjoy. :heart_on_fire:
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
