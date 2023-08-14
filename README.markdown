@@ -26,7 +26,7 @@ Make sure you have the following tools installed and, where required, available 
 - For Android: [Android Studio](https://developer.android.com/studio) and the [Java JDK](https://www.oracle.com/java/technologies/downloads/)
 - For Mac OSX: [XCode](https://developer.apple.com/xcode/)
 
-To get the source code, execute the following steps on the command line:
+To build bundles for the platform of your choice from the source code, execute the following steps on the command line:
 
 - 1.) Get the source code:
 
