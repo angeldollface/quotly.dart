@@ -22,9 +22,9 @@ Make sure you have the following tools installed and available from the command 
 
 - [Flutter](https://flutter.dev)
 - [Git](https://git-scm.org)
-- For testing and rendering: [Chrome](https://www.google.com/chrome/)
+- For testing and rendering on the web: [Chrome](https://www.google.com/chrome/)
 - For Android: [Android Studio](https://developer.android.com/studio) and [Java JDK](https://www.oracle.com/java/technologies/downloads/)
-- For iOS and Mac OSX: [XCode](https://developer.apple.com/xcode/)
+- For Mac OSX: [XCode](https://developer.apple.com/xcode/)
 
 
 To get the source code, execute the following steps on the command line:
@@ -41,17 +41,25 @@ git clone https://github.com/angeldollface/quotly.dart.git
 cd quotly.dart
 ```
 
-- 3.) View *Quotly.dart* in Chrome:
-
-```bash
-flutter run -d chrome
-```
-
-- 4.) (Optional) Make a release build to deploy to a web server:
+- 3a.) Build for a web target:
 
 ```bash
 flutter build web --release
 ```
+
+- 3b.) Build for Mac OSX:
+
+```bash
+flutter build macos --release
+```
+
+- 3c.) Build for Android by generating a Java Keystore and moving this to `android/app`. After this, add the alias and passwords to `android/app/key.properties`. Once these things are done, run the following command:
+
+```bash
+flutter build apk --release
+```
+
+- 4.) Run the generated bundle on the platform of your choice.
 
 ## CHANGELOG :black_nib:
 
