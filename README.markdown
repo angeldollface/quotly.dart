@@ -10,7 +10,7 @@ Since it is a good idea to slow down every now and again and contemplate many th
 
 ## DEPLOYED PROJECT ON GITHUB PAGES :rocket:
 
-You can view the live, deployed project on GitHub Pages [here](https://angeldollface.art/quotly.dart).
+You can view the live, deployed project on GitHub Pages [here](https://angeldollface.boo/quotly.dart).
 
 ## INSTALLATION :inbox_tray:
 

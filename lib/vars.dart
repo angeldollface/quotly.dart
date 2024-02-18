@@ -31,4 +31,4 @@ const String feedbackFont = 'PSB';
 const String loadingMsg = 'Loading...';
 const String stdFont = 'GaramondItalic';
 const String feedbackMsg = 'Quote copied!';
-const String apiURL = 'https://angeldollface.art/doll-cdn/apis/json/quotly.json';
+const String apiURL = 'https://angeldollface.boo/doll-cdn/apis/json/quotly.json';
